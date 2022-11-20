@@ -23,3 +23,9 @@ var myViewModel = {
 ```javascript
 ko.applyBindings(myViewModel);
 ```
+
+OCC has following in the main.js
+
+```javascript
+ko.applyBindings(masterViewModel, document.getElementById("oracle-cc"));
+```
