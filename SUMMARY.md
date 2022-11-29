@@ -11,3 +11,7 @@
 
 * [Introduction](knockout/introduction.md)
 * [Observables](knockout/observables.md)
+
+## OTHER
+
+* [Regex](other/regex.md)
