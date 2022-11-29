@@ -6,7 +6,7 @@
 
 [https://knockoutjs.com/documentation/introduction.html](https://knockoutjs.com/documentation/introduction.html)
 
-[https://regexlearn.com/cheatsheet](https://regexlearn.com/cheatsheet)
+
 
 
 
