@@ -15,3 +15,7 @@
 ## OTHER
 
 * [Regex](other/regex.md)
+
+## Tools
+
+* [VS Code](tools/vs-code.md)
