@@ -6,7 +6,7 @@
 
 
 
-[https://regexlearn.com/cheatsheet](https://regexlearn.com/cheatsheet)
+
 
 
 
