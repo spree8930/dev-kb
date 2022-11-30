@@ -11,6 +11,7 @@
 
 * [Introduction](knockout/introduction.md)
 * [Observables](knockout/observables.md)
+* [Bindings](knockout/bindings.md)
 
 ## OTHER
 
