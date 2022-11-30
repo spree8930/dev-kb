@@ -25,3 +25,63 @@
 
 **$parentContext:** This refers to the binding context object at the parent level. This is different from $parent, which refers to the data (not binding context) at the parent level
 
+## Controlling text and appearance
+
+### visible and hidden bindings
+
+```html
+<div data-bind="visible: myValues().length > 0">
+    // code here
+</div>
+
+<div data-bind="hidden: !$parents[1].isPaymentActive()">
+    // code here
+</div>
+```
+
+### text binding
+
+```html
+<span data-bind="text: displayName"></span>
+
+// Containerless syntax
+<select data-bind="foreach: items">
+    <option>Item <!--ko text: name--><!--/ko--></option>
+</select>
+```
+
+### html binding
+
+```html
+<div data-bind="html: $data.product().description"></div>
+```
+
+### class and css bindings
+
+```html
+// The "class" parameter value should be a string 
+// that corresponds to the CSS class
+<div data-bind="class: profitStatus">
+   Profit Information
+</div>
+
+// Pass an object in which the property names are CSS classes 
+// and their values evaluate to true or false
+<div data-bind="css: { profitWarning: currentProfit() < 0, majorHighlight: isSevere }">
+```
+
+### style binding
+
+```html
+<div data-bind="style: { color: currentProfit() < 0 ? 'red' : 'black' }">
+   Profit Information
+</div>
+```
+
+### attr binding
+
+```html
+<a data-bind="attr: { href: '#tab' + displayName(), title: details }">
+    Report
+</a>
+```
