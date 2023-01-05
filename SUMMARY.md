@@ -21,6 +21,7 @@
 ## Tools
 
 * [VS Code](tools/vs-code.md)
+* [Git](tools/git.md)
 
 ## React
 
