@@ -25,7 +25,7 @@
 
 ## React
 
-* [Page 1](react/page-1.md)
+* [Toolchain](react/toolchain.md)
 
 ## Java
 
