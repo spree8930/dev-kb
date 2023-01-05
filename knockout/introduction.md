@@ -29,8 +29,3 @@ OCC has following in the main.js
 ```javascript
 ko.applyBindings(masterViewModel, document.getElementById("oracle-cc"));
 ```
-
-{% hint style="info" %}
-[https://knockoutjs.com/documentation/introduction.html](https://knockoutjs.com/documentation/introduction.html)
-{% endhint %}
-

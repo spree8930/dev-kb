@@ -17,11 +17,13 @@
 
 * [Regex](other/regex.md)
 * [Brew](other/brew.md)
+* [Commands](other/commands.md)
 
 ## Tools
 
 * [VS Code](tools/vs-code.md)
 * [Git](tools/git.md)
+* [Untitled](tools/untitled.md)
 
 ## React
 
