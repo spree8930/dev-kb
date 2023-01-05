@@ -16,6 +16,7 @@
 ## OTHER
 
 * [Regex](other/regex.md)
+* [Brew](other/brew.md)
 
 ## Tools
 
