@@ -17,13 +17,13 @@
 
 * [Regex](other/regex.md)
 * [Brew](other/brew.md)
-* [Commands](other/commands.md)
+* [Linux Commands](other/linux-commands.md)
 
 ## Tools
 
 * [VS Code](tools/vs-code.md)
 * [Git](tools/git.md)
-* [Untitled](tools/untitled.md)
+* [npm](tools/npm.md)
 
 ## React
 
