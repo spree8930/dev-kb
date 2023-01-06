@@ -29,6 +29,10 @@
 
 * [Toolchain](react/toolchain.md)
 
+***
+
+* [Setup from scratch](setup-from-scratch.md)
+
 ## Java
 
 * [Page 2](java/page-2.md)
