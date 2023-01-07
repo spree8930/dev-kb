@@ -145,3 +145,21 @@ Run following to access the app at localhost:8080
 npm run build
 npm run start
 ```
+
+## Adding CSS
+
+```
+npm install --save-dev css-loader style-loader
+```
+
+### webpack.config.js
+
+Add following to the rules
+
+```json
+{
+  test: /\.css$/i,
+  use: ["style-loader", "css-loader"],
+}
+```
+
