@@ -35,4 +35,5 @@
 
 ## Java
 
+* [References](java/references.md)
 * [Page 2](java/page-2.md)
