@@ -18,6 +18,7 @@
 * [Regex](other/regex.md)
 * [Brew](other/brew.md)
 * [Linux Commands](other/linux-commands.md)
+* [SSH](other/ssh.md)
 
 ## Tools
 
