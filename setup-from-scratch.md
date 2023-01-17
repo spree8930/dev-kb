@@ -10,7 +10,7 @@ cd learn-react
 ## Initialize project
 
 ```shell
-npm init
+npm init -y
 ```
 
 ## Add project directories
