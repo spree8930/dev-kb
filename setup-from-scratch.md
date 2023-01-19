@@ -1,19 +1,14 @@
 # Setup from scratch
 
-## Create project folder
-
-```bash
-mkdir learn-react
-cd learn-react
-```
-
 ## Initialize project
 
 ```shell
+mkdir learn-react
+cd learn-react
 npm init -y
 ```
 
-## Add project directories
+### Add project directories
 
 ```shell
 mkdir public src
@@ -150,6 +145,7 @@ npm run start
 
 ```
 npm install --save-dev css-loader style-loader
+touch src/index.css
 ```
 
 ### webpack.config.js
@@ -163,3 +159,80 @@ Add following to the rules
 }
 ```
 
+### index.css
+
+```css
+body {
+    background: #d7f0f3;
+}
+```
+
+### index.js
+
+```javascript
+// import css file
+import './index.css'
+```
+
+## Add images
+
+```
+npm install file-loader --save-dev
+touch src/images
+```
+
+### webpack.config.js
+
+Add following to the rules:
+
+```json
+{
+  test: /\.(png|jpe?g|gif)$/i,
+  use: [
+   {
+     loader: 'file-loader',
+   },
+  ],
+}
+```
+
+### index.js
+
+```
+// import image
+import logo from "./images/logo.jpg";
+...
+<img className="logo" src={logo}></img>
+```
+
+## Add SASS
+
+```
+npm install sass-loader sass webpack --save-dev
+```
+
+### webpack.config.js
+
+Update the css rule as follows:
+
+```
+{
+  test: /\.s[ac]ss$/i,
+  use: ["style-loader", "css-loader", "sass-loader"],
+}
+```
+
+### index.scss
+
+```css
+$bg-color: #d7f0f3;
+body {
+    background: $bg-color;
+}
+```
+
+### index.js
+
+```
+import './index.scss'
+```
