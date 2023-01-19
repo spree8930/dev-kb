@@ -178,7 +178,7 @@ import './index.css'
 
 ```
 npm install file-loader --save-dev
-touch src/images
+mkdir src/images
 ```
 
 ### webpack.config.js
