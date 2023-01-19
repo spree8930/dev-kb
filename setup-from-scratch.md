@@ -236,3 +236,26 @@ body {
 ```
 import './index.scss'
 ```
+
+## Add icons
+
+```shell
+npm i --save @fortawesome/fontawesome-svg-core
+
+// Free icons styles
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/free-brands-svg-icons
+
+// React module
+npm i --save @fortawesome/react-fontawesome@latest
+```
+
+### Usage in React component
+
+```
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
+...
+<FontAwesomeIcon size="3x" className="icon" icon={faTwitterSquare} />
+```
