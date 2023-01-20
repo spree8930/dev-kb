@@ -19,3 +19,9 @@ For compilers to find openjdk you may need to set:
   export CPPFLAGS="-I/usr/local/opt/openjdk/include"
 
 ```
+
+### Installing Node
+
+```
+brew install node
+```
