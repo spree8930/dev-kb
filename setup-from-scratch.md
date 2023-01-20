@@ -213,7 +213,7 @@ npm install sass-loader sass webpack --save-dev
 
 ### webpack.config.js
 
-Update the css rule as follows:
+Update the [css rule](https://webpack.js.org/loaders/sass-loader/) as follows:
 
 ```
 {
