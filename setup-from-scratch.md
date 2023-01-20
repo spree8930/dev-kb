@@ -148,6 +148,10 @@ npm install --save-dev css-loader style-loader
 touch src/index.css
 ```
 
+{% hint style="info" %}
+css-loader and style-loader both are needed. Adding css-loader removes the error of not having a loader for css but only after adding style-loader css starts showing up
+{% endhint %}
+
 ### webpack.config.js
 
 Add following to the rules
