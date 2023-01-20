@@ -6,8 +6,6 @@
 git push origin :remote_branch
 ```
 
-## Multiple Github Accounts
-
 ### Global account config
 
 ```
