@@ -8,3 +8,7 @@
 ```
 "java.inlayHints.parameterNames.enabled": "none",
 ```
+
+## Settings
+
+Auto Save: afterDelay
