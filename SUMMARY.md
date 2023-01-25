@@ -22,7 +22,7 @@
 
 ## Tools
 
-* [VS Code](tools/vs-code/README.md)
+* [VS Code](tools/vs-code.md)
   * [Keyboard Shortcuts](tools/vs-code/keyboard-shortcuts.md)
 * [Git](tools/git.md)
 * [npm](tools/npm.md)
