@@ -76,6 +76,14 @@ This is the default. Main axis runs in the row direction and elements are placed
 
 Main axis is still in the row direction but start/end lines are switched, so items will be placed right to left
 
+```css
+.container {
+  border: 3px solid #000;
+  display: flex;
+  flex-direction: row-reverse;
+}
+```
+
 <figure><img src="../.gitbook/assets/row-reverse.png" alt=""><figcaption><p>row-reverse</p></figcaption></figure>
 
 #### column
@@ -89,3 +97,7 @@ Main axis runs in column direction and elements are placed from top to bottom
 Main axis still runs in column direction but start/end lines are switched, so elements are placed from bottom to top
 
 <figure><img src="../.gitbook/assets/column-reverse.png" alt=""><figcaption><p>column-reverse</p></figcaption></figure>
+
+### justify-content
+
+Placing items along the main axis of a flex container &#x20;
