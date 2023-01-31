@@ -62,42 +62,89 @@ To create a flex container, set display property to `flex` or `inline-flex`. Dir
 * Items will stretch to fill the size of the cross axis
 * If there are more items than can fit in the container, they will not wrap but overflow by default
 
-<figure><img src="../.gitbook/assets/flex-container.png" alt=""><figcaption><p>display:flex</p></figcaption></figure>
-
-### flex-direction
-
-Main axis is defined by `flex-direction` property and cross-axis runs perpendicular to it. It has four values
-
-#### row
-
-This is the default. Main axis runs in the row direction and elements are placed left to right as shown above
-
-#### row-reverse
-
-Main axis is still in the row direction but start/end lines are switched, so items will be placed right to left
-
 ```css
 .container {
-  border: 3px solid #000;
-  display: flex;
-  flex-direction: row-reverse;
+  display: flex; /* or inline-flex */
 }
 ```
 
+<figure><img src="../.gitbook/assets/flex-container.png" alt=""><figcaption><p>display:flex</p></figcaption></figure>
+
+Other properties for the parent:
+
+* flex-direction
+* flex-wrap
+* flex-flow
+* justify-content
+* align-items
+* align-content
+* gap, row-gap, column-gap
+
+### flex-direction
+
+Main axis is defined by `flex-direction` property and cross-axis runs perpendicular to it.&#x20;
+
+```css
+.container {
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+```
+
+* _row (default):_ Main axis runs in the row direction and elements are placed left to right as shown above
+* _row-reverse:_ Main axis is still in the row direction but start/end lines are switched, so items will be placed right to left
+* _column:_ Main axis runs in column direction and elements are placed from top to bottom
+* _column-reverse:_ Main axis still runs in column direction but start/end lines are switched, so elements are placed from bottom to top
+
 <figure><img src="../.gitbook/assets/row-reverse.png" alt=""><figcaption><p>row-reverse</p></figcaption></figure>
-
-#### column
-
-Main axis runs in column direction and elements are placed from top to bottom
 
 <figure><img src="../.gitbook/assets/column.png" alt=""><figcaption><p>column</p></figcaption></figure>
 
-#### column-reverse
-
-Main axis still runs in column direction but start/end lines are switched, so elements are placed from bottom to top
-
 <figure><img src="../.gitbook/assets/column-reverse.png" alt=""><figcaption><p>column-reverse</p></figcaption></figure>
+
+### flex-wrap
+
+By default, flex items will all try to fit into one line.
+
+```css
+.container {
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
+```
+
+* _nowrap (default):_ all flex items on one line
+* _wrap:_ flex items will wrap onto multiple lines, top to bottom
+* _wrap-reverse:_ flex items will wrap onto multiple lines, bottom to top
+
+<figure><img src="../.gitbook/assets/nowrap.png" alt=""><figcaption><p>nowrap</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/wrap.png" alt=""><figcaption><p>wrap</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/wrap-reverse.png" alt=""><figcaption></figcaption></figure>
+
+### flex-flow
 
 ### justify-content
 
 Placing items along the main axis of a flex container &#x20;
+
+* flex-start(default)
+* flex-end
+* center
+* space-around: equal space added on left/right of element
+* space-between: first and last elements at the ends and space between them
+* space-evenly: equal space added between elements and beg/end
+
+### align-items
+
+
+
+## The flex items
+
+Properties for the children
+
+* order
+* flex-grow
+* flex-shrink
+* flex-basis
+* flex
+* align-self
