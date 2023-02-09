@@ -34,6 +34,7 @@
 ***
 
 * [Setup from scratch](setup-from-scratch.md)
+* [Class Components](class-components.md)
 
 ## Java
 
