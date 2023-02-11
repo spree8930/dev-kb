@@ -123,3 +123,11 @@ export default class App extends React.Component {
     }
 }
 ```
+
+## Lifecycle Methods
+
+componentDidMount
+
+componentDidUpdate
+
+componentWillUnmount
