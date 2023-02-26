@@ -19,6 +19,7 @@
 * [Brew](other/brew.md)
 * [Linux Commands](other/linux-commands.md)
 * [SSH](other/ssh.md)
+* [Desktop Application Development](other/desktop-application-development.md)
 
 ## Tools
 
