@@ -50,3 +50,16 @@ eval $(ssh-agent)
 ```
 
 Add respective public keys in github account's settings before running git clone
+
+### Global user picked for push instead of repo user
+
+```
+ERROR: Permission to repository denied to global-user.
+fatal: Could not read from remote repository.
+```
+
+Remove all identities to fix above issue
+
+```
+ssh-add -D
+```
