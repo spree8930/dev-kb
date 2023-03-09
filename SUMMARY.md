@@ -35,6 +35,7 @@
 ***
 
 * [Setup from scratch](setup-from-scratch.md)
+* [React Router](react-router.md)
 * [Class Components](class-components.md)
 
 ## Java
