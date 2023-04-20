@@ -26,9 +26,9 @@
 ## React
 
 * [Toolchain](react/toolchain.md)
-* [Setup from scratch](react/setup-from-scratch.md)
-* [React Router](react/react-router.md)
-* [Class Components](react/class-components.md)
+* [Setup from scratch](setup-from-scratch.md)
+* [React Router](react-router.md)
+* [Class Components](class-components.md)
 
 ## Google
 
