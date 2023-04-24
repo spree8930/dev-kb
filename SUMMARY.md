@@ -25,6 +25,7 @@
 
 ## React
 
+* [Issues](react/issues.md)
 * [Toolchain](react/toolchain.md)
 * [Setup from scratch](setup-from-scratch.md)
 * [React Router](react-router.md)
