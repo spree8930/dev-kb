@@ -1,16 +1,15 @@
-# Welcome!
+# Topics
 
-## References
+## Arrays
 
-[https://www.youtube.com/c/JeffSu](https://www.youtube.com/c/JeffSu)
+Arrays hold values of the same type at contiguous memory locations.
 
+### Advantages
 
+* Constant-time access read/write
 
+## String
 
+## Hash Table
 
-
-
-
-
-
-
+## Recursion

@@ -1,10 +1,8 @@
 # Table of contents
 
-* [Welcome!](README.md)
-
 ## Technical Interviews
 
-* [Topics](technical-interviews/topics.md)
+* [Topics](README.md)
 
 ## Java
 
