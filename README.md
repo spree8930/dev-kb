@@ -1,15 +1,36 @@
-# Topics
+# Introduction
 
-## Arrays
+## Model-View-View Model (MVVM) Design Pattern
 
-Arrays hold values of the same type at contiguous memory locations.
+**Model:** application's stored data from server/DB. It is independent of any UI
 
-### Advantages
+**View Model:** code representation of data and operations on UI. It holds the unsaved data user is working with. In KO, view models are pure JavaScript objects.
 
-* Constant-time access read/write
+```javascript
+var myViewModel = {
+    firstName: 'test'
+}
+```
 
-## String
+**View:** Interactive UI representing the state of view model. When using KO, it is HTML document (or templates) with declarative bindings to link it to the view model
 
-## Hash Table
+```html
+<span data-bind="text: firstName"></span>
+```
 
-## Recursion
+### Activating Knockout
+
+```javascript
+ko.applyBindings(myViewModel);
+```
+
+OCC has following in the main.js
+
+```javascript
+ko.applyBindings(masterViewModel, document.getElementById("oracle-cc"));
+```
+
+{% hint style="info" %}
+[https://knockoutjs.com/documentation/introduction.html](https://knockoutjs.com/documentation/introduction.html)
+{% endhint %}
+
